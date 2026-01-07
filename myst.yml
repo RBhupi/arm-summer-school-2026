@@ -49,7 +49,9 @@ project:
         - file: notebooks/pyart/pyart-basics.ipynb
         - file: notebooks/pyart/pyart-corrections.ipynb
         - file: notebooks/pyart/pyart-qpe.ipynb
-    - file: projects/README.md
+    - title: Projects
+      children:
+        - file: projects/README.md
 site:
   options:
     logo: images/arm_logo.png
