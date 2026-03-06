@@ -14,14 +14,14 @@ The overarching mission of the summer school is to enhance the scientific impact
 
 - equip students with a variety of techniques for comparing high-resolution model output with ARM observations to study a range of atmospheric processes
 
--apply artificial intelligence techniques to ARM data applications.
+- apply artificial intelligence techniques to ARM data applications.
 
 ## Organizers
 | Name     | Affiliation | Links   |
 | :------- | ----------- |:------- |
 | Scott Collis | Argonne National Laboratory | [Github](https://github.com/scollis) |
 | Joseph O'Brien | Argonne National Laboratory | [Github](https://github.com/jrobrien91) |
-| Jerri Knepper | Argonne National Laboraotry | |
+| Jeri Knepper | Argonne National Laboratory | |
 
 ## Instructors and Mentors
 
