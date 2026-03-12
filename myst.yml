@@ -33,6 +33,7 @@ project:
     - file: README.md
     - title: Logistics + Information
       children:
+        - file: LOCATION.md
         - file: SCHEDULE.md
         - file: organizers/mentors.md
     - title: Preparation
