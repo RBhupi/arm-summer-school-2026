@@ -8,7 +8,7 @@ Participants asked to stop any harassing behavior are expected to comply immedia
 
 All participants in the event, inclusive of caterers, speakers, or other brief visitors, are also subject to the anti-harassment policy. In particular, attendees should not use sexualised images, activities, or other material both in their hacks and during the event. Booth staff (including volunteers) should not use sexualised lothing/uniforms/costumes, or otherwise create a sexualised environment.
 
-If a participant engages in harassing behavior, Hackathon Template Github organizers may take any action it deems appropriate, including warning the offender or expulsion from the event with no eligibility for reimbursement or refund of any type.
+If a participant engages in harassing behavior, 2026 ARM Summer School organizers may take any action it deems appropriate, including warning the offender or expulsion from the event with no eligibility for reimbursement or refund of any type.
 
 If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact using the reporting procedures defined below.
 

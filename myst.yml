@@ -28,31 +28,49 @@ project:
     - name: Sid Gupta
       orcid: 0000-0002-0663-4595
   github: https://github.com/jrobrien91/arm-summer-school-2026
+  bibliography: references.bib
   # To autogenerate a Table of Contents, run "myst init --write-toc"
   toc:
     - file: README.md
+    - title: Logistics + Information
+      children:
+        - file: LOCATION.md
+        - file: SCHEDULE.md
+        - file: organizers/mentors.md
     - title: Preparation
       children:
-        - file: preliminary/checklist_index
+        - file: preliminary/checklist_index.md
           children:
-            - file: preliminary/checklist/github
-            - file: preliminary/checklist/jupyterhub
-            - file: preliminary/checklist/git
-            - file: preliminary/checklist/armdata
-        - file: preliminary/skills_refresher_index
+            - file: preliminary/checklist/armdata.md
+            - file: preliminary/checklist/github.md
+            - file: preliminary/checklist/jupyterhub.md
+            - file: preliminary/checklist/git.md
+        - file: preliminary/skills_refresher_index.md
           children:
-            - file: preliminary/skills-refresher/swc
+            - file: preliminary/skills-refresher/swc.md
+            - file: preliminary/skills-refresher/project-pythia.md
     - title: Tutorials
       children:
-        - file: notebooks/act/ACT-Basics-BNF.ipynb
-        - file: notebooks/act/act-tower-data.ipynb
-        - file: notebooks/pyart/pyart-basics.ipynb
-        - file: notebooks/pyart/pyart-corrections.ipynb
-        - file: notebooks/pyart/pyart-qpe.ipynb
+        - title: ARM Open Source Software
+          children:
+            - title: Atmospheric data Community Toolkit (ACT)
+              children:
+                - file: notebooks/act/ACT-Basics-BNF.ipynb
+                - file: notebooks/act/act-tower-data.ipynb
+            - title: Python-ARM Radar Toolkit (Py-ART)
+              children:
+                - file: notebooks/pyart/pyart-basics.ipynb
+                - file: notebooks/pyart/pyart-corrections.ipynb
+                - file: notebooks/pyart/pyart-qpe.ipynb
+        - title: ARM Decadal Analysis Workflows
+          children:
+            - file: notebooks/decadal/ecor-ebbr.ipynb
     - title: Projects
       children:
-        - file: projects/README.md
+        - file: projects/projects.md
 site:
+  parts:
+    footer: footer.md
   options:
     logo: images/arm_logo.png
     footer_logos:
@@ -60,3 +78,11 @@ site:
   nav:
     - title: ARM Home
       url: https://www.arm.gov/
+    - title: ARM SGP
+      url: https://www.arm.gov/capabilities/observatories/sgp
+    - title: ARM Data
+      url: https://adc.arm.gov/discovery/results/
+    - title: ARM DQO PlotBrowser
+      url: https://dq.arm.gov/dq-plotbrowser/
+    - title: ARM JupyterHub
+      url: https://jupyterhub.arm.gov/
